@@ -192,14 +192,11 @@ const App = () => {
         draggable
         pauseOnHover
         theme="light" />
-
+        
       <Navbar />
-
       <Header />
-
       <Counter statistics={statistics} />
       <div className="mt-8">
-
           <CheckForScams
             searchIdentifierForm={searchIdentifierForm}
             searchContact={searchContact}
@@ -217,7 +214,6 @@ const App = () => {
           />
 
           <NotScamCard />
-
           <Footer />
 
       </div>
